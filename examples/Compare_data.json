@@ -1,0 +1,372 @@
+{
+    "basepath": "Y:\\NUX_SMT\\Internal Working SharePoint\\Data\\SMT Input Data\\nx-2127\\processed data\\test",
+    "datasets": {
+        "EDC_subject": [
+            {
+                "file_name": "ds.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "eot.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "ex.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "ic.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "substat.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            }
+        ],
+        "EDC_sample": [
+            {
+                "file_name": "biomrk.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "btkana.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "lnbr.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_cyt.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_cyt1.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_fc.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_fc1.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_ngs.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_pbmc.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pd_pbmc1.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pk.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            },
+            {
+                "file_name": "pk1.sas7bdat",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "EDC Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    ""
+                ]
+            }
+        ],
+        "Lab": {
+            "AA": {
+                "lab data.aa.aa.csv": {
+                    "Mapping": {
+                        "Collection_Date": {
+                            "Label": "AA Lab Collection date",
+                            "Native_Name": "Standardized_col_name2"
+                        }
+                    },
+                    "Samples": [
+                        "PK Blood Sampling"
+                    ]
+                }
+            },
+            "NEO": {
+                "lab data.neo.neo_btk.csv": {
+                    "Mapping": {
+                        "Collection_Date": {
+                            "Label": "NEO Lab Collection date",
+                            "Native_Name": "Standardized_col_name2"
+                        }
+                    },
+                    "Samples": [
+                        "BTK Mutation Analysis"
+                    ]
+                },
+                "lab data.neo.neo_ngs.csv": {
+                    "Mapping": {
+                        "Collection_Date": {
+                            "Label": "NEO Lab Collection date",
+                            "Native_Name": "Standardized_col_name2"
+                        }
+                    },
+                    "Samples": [
+                        "Exploratory PD NGS"
+                    ]
+                }
+            },
+            "Myriad RBM": {
+                "lab data.pfm.pfm_myriadrbm_cytokine.csv": {
+                    "Mapping": {
+                        "Collection_Date": {
+                            "Label": "Myriad Lab Collection date",
+                            "Native_Name": "Standardized_col_name2"
+                        }
+                    },
+                    "Samples": [
+                        "Exploratory PD Cytokines"
+                    ]
+                }
+            },
+            "PFM": {
+                "lab data.pfm.pfm_flow_cytometry.csv": {
+                    "Mapping": {
+                        "Collection_Date": {
+                            "Label": "PFM Lab Collection date",
+                            "Native_Name": "Standardized_col_name2"
+                        }
+                    },
+                    "Samples": [
+                        "PD Flow Cytometry"
+                    ]
+                }
+            },
+            "Q2/EA": {
+                "lab data.pfm.pfm_q2ea.csv": {
+                    "Mapping": {
+                        "Collection_Date": {
+                            "Label": "Q2/EA Lab Collection date",
+                            "Native_Name": "Standardized_col_name2"
+                        }
+                    },
+                    "Samples": [
+                        "Exploratory PD PBMC"
+                    ]
+                }
+            }
+        },
+        "Inventory": {
+            "NEO": {
+                "file_name": "inventory data.neo.xlsx",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "Neo Inventory Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    },
+                    "Received_Date": {
+                        "Label": "Neo Inventory Received date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    "Exploratory PD NGS",
+                    "BTK Mutation Analysis"
+                ]
+            },
+            "AA": {
+                "file_name": "inventory data.aa.xlsx",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "AA Inventory Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    },
+                    "Received_Date": {
+                        "Label": "AA Inventory Received date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    "PK Blood Sampling"
+                ]
+            },
+            "PFM": {
+                "file_name": "inventory data.pfm.xlsx",
+                "Mapping": {
+                    "Collection_Date": {
+                        "Label": "PFM Inventory Collection date",
+                        "Native_Name": "Standardized_col_name2"
+                    },
+                    "Received_Date": {
+                        "Label": "PFM Inventory Received date",
+                        "Native_Name": "Standardized_col_name2"
+                    }
+                },
+                "Samples": [
+                    "PK Blood Sampling",
+                    "Lymph Node Biopsy",
+                    "Biomarker Plasma Sample",
+                    "Exploratory PD Cytokines",
+                    "PD Flow Cytometry",
+                    "Exploratory PD PBMC"
+                ]
+            }
+        }
+    },
+    "rule": {
+        "data_type": "date",
+        "type": "Compare",
+        "comp_variable": {
+            "Source": "EDC",
+            "Variable_name": [
+                "Collection_Date"
+            ]
+        },
+        "ref_variable": [
+            {
+                "Source": "Lab",
+                "Variable_name": [
+                    "Collection_Date"
+                ]
+            },
+            {
+                "Source": "Inv",
+                "Variable_name": [
+                    "Received_Date"
+                ]
+            }
+        ],
+        "Sign": ">"
+    }
+}

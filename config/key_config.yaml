@@ -1,0 +1,16 @@
+keys_sample:
+  - Subject_ID
+  - Sample_Type
+  - Visits
+  - Time_Point
+  - Aliqoute
+  - Sample_Unique_Identifier
+
+id_column_sample:
+  - Sample_Unique_Identifier
+
+keys_subject:
+  - Subject_ID
+id_column_subject:
+  - Subject_ID
+sample_type: Sample_Type
