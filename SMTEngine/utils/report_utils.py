@@ -2,11 +2,23 @@ import os
 import pandas as pd
 
 def process_inventory_data(base_path, inventory, keys, cols_to_report, id_column):
+    """Function to process inventory data for report rule.
+
+    Args:
+        base_path (str): base directory for datasets
+        inventory (dict): dictionary for inventory related data (part of request json)
+        keys (list): list of keys for inventory
+        cols_to_report (list): list of columns to report
+        id_column (list): list containing id column
+
+    Returns:
+        dataframe: datafrme of processed inventory data
+    """
     ids = pd.DataFrame()
     
     for inv in inventory:
         file = inventory[inv]['file_name']
-        data = pd.read_excel(os.path.join(base_path, file), usecols=keys + cols_to_report, dtype='object')
+        data = pd.read_excel(os.path.join(base_path, file), usecols=keys + cols_to_report, dtype='object') # !!SHOULD BE CHANGED TO CSV IN PROD
         data[cols_to_report] = data[cols_to_report].fillna('Missing')
         data = data.dropna(subset=id_column)
         rename_columns = {i: inventory[inv]['Mapping'][i]['Label'] for i in cols_to_report}
@@ -16,6 +28,21 @@ def process_inventory_data(base_path, inventory, keys, cols_to_report, id_column
     return ids.drop_duplicates()
 
 def process_lab_data(base_path, lab, id_column, cols_to_report):
+    """Function to process Laboratory data for report rule.
+
+    Args:
+        base_path (str): base directory for datasets
+        lab (dict): dictionary for laboratory related data (part of request json)
+        cols_to_report (list): list of columns to report
+        id_column (list): list containing id column
+        
+    Raises:
+        ValueError: Incorrect variable names
+
+    Returns:
+        dataframe: datafrme of processed laboratory data
+    """
+        
     result = pd.DataFrame()
     col_rename = {}
     samples = []
@@ -35,13 +62,27 @@ def process_lab_data(base_path, lab, id_column, cols_to_report):
     return result.drop_duplicates(), col_rename, samples
 
 def process_edc_data(base_path, edc_samples, id_column, cols_to_report):
+    """Function to process EDC data for report rule.
+
+    Args:
+        base_path (str): base directory for datasets
+        edc_samples (list): list of EDC related data (part of request json)
+        cols_to_report (list): list of columns to report
+        id_column (list): list containing id column
+
+     Raises:
+        ValueError: Incorrect variable names
+
+    Returns:
+        dataframe: datafrme of processed EDC data
+    """
     edc_data = pd.DataFrame()
     col_rename_edc = {}
     
     for edc in edc_samples:
         file_edc = edc['file_name']
-        data = pd.read_sas(os.path.join(base_path, file_edc), encoding='utf-8')
-        data = data[id_column + cols_to_report]
+        data = pd.read_sas(os.path.join(base_path, file_edc), encoding='utf-8')  #!! SHOULD BE CSV IN PROD
+        data = data[id_column + cols_to_report] 
         data = data.dropna(subset=id_column)
         renames_edc = {i: edc['Mapping'][i]['Label'] for i in cols_to_report}
         if not col_rename_edc:

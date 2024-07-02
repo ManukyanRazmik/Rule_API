@@ -6,14 +6,6 @@ from SMTEngine.Models.RuleModels import RuleModel
 import yaml
 
 app = FastAPI()
-mounted_path = '/app/data'
-import os
-@app.get("/list_files/")
-async def list_files():
-    files = os.listdir(mounted_path)
-    return {"files": files}
-
-
 
 with open(r'config/key_config.yaml', 'r') as f:
     config = yaml.safe_load(f)
